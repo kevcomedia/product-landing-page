@@ -10,4 +10,18 @@ html {
 
 body {
   font-size: 1.6rem;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 
+    [full-start] minmax(1rem, 1fr)
+    [main-start] minmax(auto, 110rem)
+    [main-end] minmax(1rem, 1fr)
+    [full-end];
+}
+
+.container__item {
+  grid-column: main;
 }
