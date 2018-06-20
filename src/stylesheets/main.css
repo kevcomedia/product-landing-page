@@ -30,3 +30,7 @@ body {
 .container__item {
   grid-column: main;
 }
+
+.heading {
+  text-align: center;
+}
