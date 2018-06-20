@@ -22,6 +22,11 @@ body {
     [full-end];
 }
 
+.container_theme_dark {
+  background-color: #000;
+  color: #f0f0f0;
+}
+
 .container__item {
   grid-column: main;
 }
