@@ -20,6 +20,7 @@ body {
     [main-start] minmax(auto, 110rem)
     [main-end] minmax(1rem, 1fr)
     [full-end];
+  justify-items: center;
 }
 
 .container_theme_dark {
@@ -33,4 +34,17 @@ body {
 
 .heading {
   text-align: center;
+}
+
+.features {
+  --column-min-width: 20rem;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(var(--column-min-width), 1fr));
+}
+
+@media screen and (min-width: 42.5em) {
+  .features {
+    --column-min-width: 30rem;
+  }
 }
