@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font: 1.6rem 'Roboto', sans-serif;
+  font: 300 1.6rem 'Roboto', sans-serif;
   margin: 0;
 }
 
@@ -34,6 +34,7 @@ body {
 }
 
 .heading {
+  font-weight: 400;
   text-align: center;
 }
 
@@ -59,6 +60,10 @@ body {
 .features__title,
 .features__description {
   color: #f0f0f0;
+}
+
+.features__title {
+  font-weight: 400;
 }
 
 .video-embed {
@@ -97,6 +102,12 @@ body {
 
 .testimonials__quote::before { content: open-quote; }
 .testimonials__quote::after { content: close-quote; }
+
+.testimonials__cite {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
 .testimonials__cite::before {
   content: "\2014 ";
 }
