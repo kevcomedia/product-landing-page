@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
+  font: 1.6rem 'Roboto', sans-serif;
   margin: 0;
 }
 
