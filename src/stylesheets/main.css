@@ -21,6 +21,7 @@ body {
     [main-end] minmax(1rem, 1fr)
     [full-end];
   justify-items: center;
+  padding: 6rem 0;
 }
 
 .container_theme_dark {
