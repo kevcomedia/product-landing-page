@@ -60,3 +60,24 @@ body {
 .features__description {
   color: #f0f0f0;
 }
+
+.video-embed {
+  max-width: 60rem;
+  width: 100%;
+}
+
+.video-embed__video {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.video-embed__video > iframe {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
