@@ -41,10 +41,21 @@ body {
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: repeat(auto-fill, minmax(var(--column-min-width), 1fr));
+  list-style-type: square;
 }
 
 @media screen and (min-width: 42.5em) {
   .features {
     --column-min-width: 30rem;
   }
+}
+
+.features__item_bullet_red { color: #cc1314; }
+.features__item_bullet_yellow { color: #c2b700; }
+.features__item_bullet_green { color: #0ec102; }
+.features__item_bullet_blue { color: #3144ce; }
+
+.features__title,
+.features__description {
+  color: #f0f0f0;
 }
