@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font: 1.6rem 'Roboto', sans-serif;
+  font: 300 1.6rem 'Roboto', sans-serif;
   margin: 0;
 }
 
@@ -34,6 +34,7 @@ body {
 }
 
 .heading {
+  font-weight: 400;
   text-align: center;
 }
 
@@ -61,6 +62,10 @@ body {
   color: #f0f0f0;
 }
 
+.features__title {
+  font-weight: 400;
+}
+
 .video-embed {
   max-width: 60rem;
   width: 100%;
@@ -80,4 +85,29 @@ body {
   position: absolute;
   top: 0;
   width: 100%;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.testimonials__item {
+  flex-basis: 20rem;
+  flex-grow: 1;
+  max-width: 40rem;
+  text-align: center;
+}
+
+.testimonials__quote::before { content: open-quote; }
+.testimonials__quote::after { content: close-quote; }
+
+.testimonials__cite {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.testimonials__cite::before {
+  content: "\2014 ";
 }
