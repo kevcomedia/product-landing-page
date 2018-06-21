@@ -95,6 +95,8 @@ body {
   text-align: center;
 }
 
+.testimonials__quote::before { content: open-quote; }
+.testimonials__quote::after { content: close-quote; }
 .testimonials__cite::before {
   content: "\2014 ";
 }
