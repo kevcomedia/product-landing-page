@@ -111,3 +111,9 @@ body {
 .testimonials__cite::before {
   content: "\2014 ";
 }
+
+.prices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
