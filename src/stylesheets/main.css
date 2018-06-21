@@ -81,3 +81,20 @@ body {
   top: 0;
   width: 100%;
 }
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.testimonials__item {
+  flex-basis: 20rem;
+  flex-grow: 1;
+  max-width: 40rem;
+  text-align: center;
+}
+
+.testimonials__cite::before {
+  content: "\2014 ";
+}
