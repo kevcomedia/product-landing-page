@@ -282,3 +282,7 @@ body {
 .bottom-nav__link {
   color: inherit;
 }
+
+.github {
+  text-align: center;
+}
