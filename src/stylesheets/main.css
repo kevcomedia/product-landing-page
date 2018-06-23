@@ -221,3 +221,16 @@ body {
 .prices__sign-up {
   align-self: center;
 }
+
+.footer__header {
+  text-align: center;
+}
+
+.footer__title,
+.footer__subtitle {
+  margin-top: 0;
+}
+
+.footer__title {
+  margin-bottom: 0;
+}
