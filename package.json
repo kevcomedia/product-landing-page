@@ -4,6 +4,7 @@
   "description": "freeCodeCamp product landing page project",
   "main": "index.js",
   "scripts": {
+    "build": "gulp build",
     "dev": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,7 +20,17 @@
   },
   "homepage": "https://github.com/kevcomedia/product-landing-page#readme",
   "devDependencies": {
+    "autoprefixer": "^8.6.3",
     "browser-sync": "^2.24.4",
-    "gulp": "^3.9.1"
+    "cssnano": "^3.10.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-useref": "^3.1.5",
+    "run-sequence": "^2.2.1"
   }
 }
