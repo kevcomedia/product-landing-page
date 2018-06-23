@@ -24,6 +24,10 @@ body {
   padding: 6rem 0;
 }
 
+.container_narrow {
+  padding: unset;
+}
+
 .container_theme_dark {
   background-color: #000;
   color: #f0f0f0;
@@ -40,6 +44,29 @@ body {
 .heading {
   font-weight: 400;
   text-align: center;
+}
+
+.button {
+  border-radius: 1rem;
+  border: .2rem solid #9c9c9c;
+  color: #333;
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 1rem 5rem;
+  text-decoration: none;
+  transition: all .3s ease-out;
+}
+
+.button:focus,
+.button:hover {
+  background-color: #9c9c9c;
+  color: #fff;
+}
+
+.button_theme_dark {
+  background-color: #000;
+  color: #f2f2f2;
 }
 
 .features {
@@ -197,18 +224,65 @@ body {
 
 .prices__sign-up {
   align-self: center;
-  border-radius: 1rem;
-  border: .2rem solid #9c9c9c;
-  color: #333;
-  display: inline-block;
-  font-weight: 400;
-  padding: 1rem 5rem;
-  text-decoration: none;
-  transition: all .3s ease-out;
 }
 
-.prices__sign-up:focus,
-.prices__sign-up:hover {
-  background-color: #9c9c9c;
-  color: #fff;
+.footer__header {
+  text-align: center;
+}
+
+.footer__title,
+.footer__subtitle {
+  margin-top: 0;
+}
+
+.footer__title {
+  margin-bottom: 0;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-self: stretch;
+}
+
+.form__email,
+.form__submit {
+  margin: 0 1rem 2rem;
+}
+
+.form__email {
+  border-radius: 1rem;
+  border: .2rem solid #9c9c9c;
+  flex-basis: 27.5rem;
+  flex-grow: 1;
+  font-size: 1.6rem;
+  max-width: 40rem;
+  padding: 1rem;
+}
+
+.bottom-nav {
+  display: flex;
+  font-size: 1.4rem;
+  justify-content: space-between;
+  justify-self: stretch;
+}
+
+.bottom-nav__links {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.bottom-nav__item {
+  display: block;
+  padding: 0 1rem;
+}
+
+.bottom-nav__link {
+  color: inherit;
+}
+
+.github {
+  text-align: center;
 }
