@@ -42,6 +42,29 @@ body {
   text-align: center;
 }
 
+.button {
+  border-radius: 1rem;
+  border: .2rem solid #9c9c9c;
+  color: #333;
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 1rem 5rem;
+  text-decoration: none;
+  transition: all .3s ease-out;
+}
+
+.button:focus,
+.button:hover {
+  background-color: #9c9c9c;
+  color: #fff;
+}
+
+.button_theme_dark {
+  background-color: #000;
+  color: #f2f2f2;
+}
+
 .features {
   --column-min-width: 20rem;
   display: grid;
@@ -197,18 +220,4 @@ body {
 
 .prices__sign-up {
   align-self: center;
-  border-radius: 1rem;
-  border: .2rem solid #9c9c9c;
-  color: #333;
-  display: inline-block;
-  font-weight: 400;
-  padding: 1rem 5rem;
-  text-decoration: none;
-  transition: all .3s ease-out;
-}
-
-.prices__sign-up:focus,
-.prices__sign-up:hover {
-  background-color: #9c9c9c;
-  color: #fff;
 }
