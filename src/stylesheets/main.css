@@ -234,3 +234,25 @@ body {
 .footer__title {
   margin-bottom: 0;
 }
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-self: stretch;
+}
+
+.form__email,
+.form__submit {
+  margin: 0 1rem 2rem;
+}
+
+.form__email {
+  border-radius: 1rem;
+  border: .2rem solid #9c9c9c;
+  flex-basis: 27.5rem;
+  flex-grow: 1;
+  font-size: 1.6rem;
+  max-width: 40rem;
+  padding: 1rem;
+}
