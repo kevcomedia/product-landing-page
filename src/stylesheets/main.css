@@ -69,6 +69,16 @@ body {
   color: #f2f2f2;
 }
 
+.button_hover_green:hover {
+  background-color: #0ec102;
+  border-color: #0ec102;
+}
+
+.button_hover_blue:hover {
+  background-color: #3144ce;
+  border-color: #3144ce;
+}
+
 .navbar {
   align-items: center;
   background-color: #000;
