@@ -58,12 +58,6 @@ body {
   transition: all .3s ease-out;
 }
 
-.button:focus,
-.button:hover {
-  background-color: #9c9c9c;
-  color: #fff;
-}
-
 .button_theme_dark {
   background-color: #000;
   color: #f2f2f2;
