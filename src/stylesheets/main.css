@@ -58,15 +58,21 @@ body {
   transition: all .3s ease-out;
 }
 
-.button:focus,
-.button:hover {
-  background-color: #9c9c9c;
-  color: #fff;
-}
-
 .button_theme_dark {
   background-color: #000;
   color: #f2f2f2;
+}
+
+.button_hover_green:focus,
+.button_hover_green:hover {
+  background-color: #0ec102;
+  border-color: #0ec102;
+}
+
+.button_hover_blue:focus,
+.button_hover_blue:hover {
+  background-color: #3144ce;
+  border-color: #3144ce;
 }
 
 .navbar {
